@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffcc00;
+}
+
+.content{
+    margin-bottom: 50px;
+}
+
+.content h1{
+    font-size: 3em;
+    color: #0018f9;
+    font-family: "Delicious Handrawn", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content p{
+    font-size: 2em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button{
+    width: 150px;
+    height: 80px;
+    margin: 0 5px 0 5px;
+    font-size: 1.2em;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    border-radius: 20px;
+}
+
+#FirstNounButton{
+    background-color: purple;
+    color: #fefefe;
+}
+
+#VerbButton{
+    background-color: #90d5ff;
+    color: black;
+}
+
+#AdjectiveButton{
+    background-color: #3cb043;
+    color: blue;
+}
+
+#SecondNounButton{
+    background-color: #fa9c1c;
+    color: #fefefe;
+}
+
+#LocationButton{
+    background-color: #fbc6cf;
+    color: black;
+}
+
+#StoryButton{
+    background-color: #ff2800;
+    color: #ffcc00;
+}
